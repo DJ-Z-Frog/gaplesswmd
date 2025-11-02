@@ -197,12 +197,12 @@ export const Welcome = (props: {}) => {
         <React.Fragment>
             <Box className={classes.headBox}>
                 <Typography component="h1" variant="h4">
-                    Web MiniDisc Pro
+                    Gapless Web MiniDisc Pro
                 </Typography>
                 <TopMenu />
             </Box>
             <Typography component="h2" variant="body2">
-                Brings NetMD Devices to the Web
+                Brings NetMD Devices to the Web with gapless track recording
             </Typography>
             <Box className={classes.main}>
                 {browserSupported ? (
